@@ -1,0 +1,192 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+.left {
+	background: #E0FFFF;
+	height: 100vh;
+	width: 50%;
+	display: flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+}
+
+.right {
+	background:url(9.jpeg);
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	width: 50%; }
+
+
+#pantalla {
+display: flex;
+}
+
+
+.right1 {
+	background: #E0FFFF;
+	height: 100vh;
+	width: 50%;
+	display: flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+}
+
+.left1 {
+	background:url(12.jpeg);
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	width: 50%; }
+
+
+#dividida {
+display: flex;
+}
+
+
+.left2 {
+	background: #E0FFFF;
+	height: 100vh;
+	width: 50%;
+	display: flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+}
+
+.right2 {
+	background:url(14.jpeg);
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	width: 50%; 
+}
+
+.left3 {
+	background: #E0FFFF;
+	height: 50vh;
+	width: 100%;
+	display: flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+}
+
+#tercer {
+display: flex;
+}
+
+h1 {
+	font-size: 80px;
+	width: 50%;
+	margin: auto;
+	
+}
+.left4 {
+	background: #ADD8E6;
+	height: 50vh;
+	width: 50%;
+	display: flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+}
+
+.right4 {
+	background:url(4.jpeg);
+	background-size: cover;
+	background-position: center;
+	height: 50vh;
+	width: 50%; 
+}
+
+.left5 {
+	background: #ADD8E6;
+	height: 50vh;
+	width: 50%;
+	display: flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+}
+
+.right5 {
+	background:url(12.jpeg);
+	background-size: cover;
+	background-position: center;
+	height: 50vh;
+	width: 50%; 
+}
+
+
+.left6 {
+	background: #ADD8E6;
+	height: 50vh;
+	width: 50%;
+	display: flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+}
+
+.right6 {
+	background:url(14.jpeg);
+	background-size: cover;
+	background-position: center;
+	height: 50vh;
+	width: 50%; 
+}
+h2 {
+	font-size: 40px;
+	width: 50%;
+	margin: 10px;
+}
+
+
+
+p {
+	font-size: 25px;
+	line-heignt: 30px;
+	width: 50%;
+	margin: auto;
+}
+
+* {
+	margin:0;
+	padding:0;
+}
+
+.main, .articles {
+	width:100%;
+	float:center;
+}
+
+.main .articles article {
+	padding:20px;
+	background:#fff;
+	margin-bottom:20px;
+}
+
+
+.main {
+	width:50%;
+	max-width:1000px;
+	margin:20px auto;
+}
+
+
+.bottom {
+	background:#4682B4;
+	color:#fff;
+	display:incline-block;
+	font-size:20px;
+	margin:20px;
+	padding:10px 0px;
+	text-align:center;
+	width:50%;
+	text-decoration:none;
+	box-shadow:0px 3px 0px #000;
+	border-radius:30px;
+}
+
+#botones {
+display: flex;
+}
+

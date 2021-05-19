@@ -1,0 +1,120 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+.left {
+	background: #DB7093;
+	height: 100vh;
+	width: 50%;
+}
+
+.right {
+	background:url(pint.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	width: 50%; }
+
+.foto2 {
+	background:url(pint.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	width: 50%; }
+
+#pantalla-dividida {
+display: flex;
+}
+
+.creativo {
+	color: #fff;
+}
+
+
+h1 {
+	font-size: 40px;
+	width: 50%;
+	margin: auto;
+	
+}
+
+h2 {
+	font-size: 40px;
+	width: 50%;
+	
+	
+}
+
+h3 {
+	font-size: 40px;
+	width: 50%;
+	
+	
+}
+
+h4 {
+	font-size: 40px;
+	width: 50%;
+	
+	
+}
+
+p {
+	font-size: 25px;
+	line-heignt: 30px;
+	width: 50%;
+	margin: auto;
+}
+
+* {
+	margin:0;
+	padding:0;
+}
+
+.main, .articles {
+	width:100%;
+	float:center;
+}
+
+.main .articles article {
+	padding:20px;
+	background:#fff;
+	margin-bottom:20px;
+}
+
+
+.main {
+	width:100%;
+	max-width:1000px;
+	margin:20px auto;
+}
+
+.bottom {
+	background:#DB7093;
+	color:#fff;
+	display:incline-block;
+	font-size:20px;
+	margin:20px;
+	padding:10px 0px;
+	text-align:center;
+	width:50%;
+	text-decoration:none;
+	box-shadow:0px 3px 0px #000;
+	border-radius:30px;
+}
+
+#botones {
+display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+

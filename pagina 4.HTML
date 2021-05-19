@@ -1,0 +1,269 @@
+<HTML>
+<HEAD>
+	<TITLE> Meraki By Andre </TITLE>
+
+
+<br><p align="Center"><font size="40" color="#FDFEFE" face="Lucida Bright"> Meraky By Andre </font></p>
+<br>
+
+		<STYLE>
+
+#textarea{
+	
+	background-color: #FBFCFC;
+	font-size:20px;
+	font-family:"arial","helvetica Neve","century gothic";
+	color: #4682B4;
+	text-align:center;
+	text-transform:capitalize;	
+}
+
+#escrito{
+	background-color: #FBFCFC;
+	font-size:20px;
+	font-family:"arial","helvetica Neve","century gothic";
+	color: #D98880;
+	text-align:center;
+
+}
+
+
+
+#text{
+	font-size:30px;
+
+}
+
+
+
+#boton{
+	Font-size:20px;
+	background-color: #000000;
+	color:#fff;
+
+}
+
+
+	/* MENU */
+
+#MENU{
+text-align:center;
+}
+
+#MENU ul {
+ list-style:none;
+ margin:0;
+ padding:0;
+ display:inline-block;
+}
+
+	/* items del menu */
+
+
+#MENU ul li {
+ background-color:#4682B4;
+}
+
+
+	/* enlaces del menu */
+
+#MENU ul a {
+ display:block;
+ color:#fff;
+ text-decoration:none;
+ font-weight:400;
+ font size:15px;
+ padding:10px;
+ font-family:"cambria","HelveticaNue", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+ text-transform:uppercase;
+ letter-spacing:1px;
+}
+
+	/* items del menu */
+
+#MENU ul li {
+ position:relative;
+ float:left;
+ margin:0;
+ padding:0;
+}
+
+	/* efecto al pasar el raton por los items*/
+
+#MENU ul li:hover {
+ background:#ADD8E6;
+}
+
+	/* menu despleable */
+
+#MENU ul ul {
+ display:none;
+ position:absolute;
+ top:100%;
+ left:0;
+ brackground:#eee;
+ padding:0;
+}
+
+	/* items del menu desplegable */
+
+#MENU ul ul li {
+ float:none;
+ width:150px;
+}
+
+	/* enlaces los items del menu despegable */
+
+#MENU ul ul a {
+ line-height:120%;
+ padding:10px 15px;
+}
+
+	/* items del menu despegable al pasar el raton */
+
+#MENU ul li:hover > ul {
+ display:block;
+}
+
+
+
+
+		</STYLE>
+
+</HEAD>
+<BODY BACKGROUND="nubes.jpg">
+
+	<nav id="MENU">
+	
+	<ul>
+	<li> <a href="index.html" > Pagina Principal </a></li>
+	<li> <a href="pagina 3.html" > Servicios </a>
+		
+		<ul>
+		<li><a href="cuadros.html"> Cuadros </a></li>
+		<li><a href="cases.html"> Cases </a></li>
+		<li><a href="tenis.html"> Custom Tenis </a></li>
+
+		</ul>
+		</li>
+	<li> <a href="pagina 2.html" > Pedidos </a></li>
+	<li> <a href="pagina 4.html"> Dejanos Conocerte </a></li>
+	</ul>
+	</nav>
+
+<br><p align="Center"><font size="40" color="#fff" face="Lucida Bright"><b> Informaci&oacute;n de Contacto </b></font></p>
+
+<form action="mailto:jeremias.mendoza@bachilleratointegral.edu.mx" method="post" encype="tex/plain">
+
+<table border=.5 align=center bgcolor=#B0C4DE>
+
+
+	<tr>
+		<td><font id="text" color=#fff> Nombre </font></td>
+		<td><input type=text id="textarea" placeholder="Nombre" name="nombre"></td>
+	</tr>
+
+	
+	<tr>
+		<td><font id="text" color=#fff> Apellido(s) </font></td>
+		<td><input type=text id="textarea" placeholder="Apellido" name="apellido"></td>
+	</tr>
+
+
+	<tr>
+		<td><font id="text" color=#fff> Fecha de nacimiento </font></td>
+		<td><input type=date id="textarea" name="Fnac"></td>
+	</tr>
+
+	<tr>
+		<td><font id="text" color=#fff> Sexo </font></td>
+		<td><select id="textarea" name="sexo">
+			<option> Hombre
+			<option> Mujer
+			<option> Indefinido </td>
+		</select>
+	</tr>
+
+	<tr>
+		<td><font id="text" color=#fff> Custom de Preferencia </font></td>
+		<td><select id="textarea" name="preferencia">
+			<option> Cases
+			<option> Tenis
+			<option> Llaveros
+			<option> Cuadros 
+			<option> Ropa 
+			<option> Otro tipo </td>
+		</select>
+	</tr>
+
+	<tr>
+		<td><font id="text" color=#fff> Estado </font></td>
+		<td><select id="textarea" name="estado">
+			<option> Aguascalientes
+			<option> Baja California
+			<option> Baja California Sur 
+			<option> Campeche
+			<option> Coahuila de Zaragoza
+			<option> Colima
+			<option> Chiapas
+			<option> Chihuahua
+			<option> Distrito Federal
+			<option> Durango
+			<option> Guanajuato
+			<option> Guerrero
+			<option> Hidalgo
+			<option> Jalisco
+			<option> México
+			<option> Michoacán de Ocampo
+			<option> Morelos
+			<option> Nayarit
+			<option> Nuevo León	
+			<option> Oaxaca
+			<option> San Luis Potosí	
+			<option> Sinaloa
+			<option> Sonora
+			<option> Tabasco
+			<option> Tamaulipas
+			<option> Tlaxcala
+			<option> Veracruz de Ignacio de la Llave	
+			<option> Yucatán
+			<option> Zacatecas </td>
+		</select>
+	</tr>
+
+	<tr>
+		<td><font id="text" color=#fff> Codio Postal </font></td>
+		<td><input type=number id="textarea" placeholder="C.P." name="codigo"</td>
+	</tr>
+
+	<tr>
+		<td><font id="text" color=#fff> Telefono Celular </font></td>
+		<td><input type=number id="textarea" placeholder="Diez digitos" name="celular"</td>
+	</tr>
+	
+
+	
+	
+	<tr>
+		<td><font id="text" color=#fff> Danos tu opinion </font></td>
+		<td><input type=text id="escrito" placeholder="Ayudanos a mejorar" name="opinion"></td>
+	</tr>
+	
+</form>
+</table>
+
+<br>
+<br>
+
+	<center>
+		<input type="submit" id="boton" value="Enviar datos">
+		<input type="reset" id="boton" value="Borrar">
+	</center>
+
+</BODY>
+<FOOTER>
+
+<audio src="audio.mp3" controls autoplay></audio>
+
+</FOOTER>
+</HTML>
